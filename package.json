@@ -24,6 +24,7 @@
     "babel-preset-env": "^1.7.0",
     "mermaid": "github:xertrov/mermaid#max-fi",
     "standard": "^14.3.4",
+    "yarn": "^1.22.4",
     "yarn-upgrade-all": "^0.5.2"
   },
   "files": [

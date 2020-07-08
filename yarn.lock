@@ -9,6 +9,11 @@
   dependencies:
     "@babel/highlight" "^7.10.3"
 
+"@babel/helper-plugin-utils@^7.10.4":
+  version "7.10.4"
+  resolved "https://registry.yarnpkg.com/@babel/helper-plugin-utils/-/helper-plugin-utils-7.10.4.tgz#2f75a831269d4f677de49986dff59927533cf375"
+  integrity sha512-O4KCvQA6lLiMU9l2eawBPMf1xPP8xPfB3iEQw150hOVTqj/rfXz0ThTb4HEzqQfs2Bmo5Ay8BzxfzVtBrr9dVg==
+
 "@babel/helper-validator-identifier@^7.10.3":
   version "7.10.3"
   resolved "https://registry.yarnpkg.com/@babel/helper-validator-identifier/-/helper-validator-identifier-7.10.3.tgz#60d9847f98c4cea1b279e005fdb7c28be5412d15"
@@ -22,6 +27,21 @@
     "@babel/helper-validator-identifier" "^7.10.3"
     chalk "^2.0.0"
     js-tokens "^4.0.0"
+
+"@babel/plugin-proposal-numeric-separator@^7.10.1":
+  version "7.10.4"
+  resolved "https://registry.yarnpkg.com/@babel/plugin-proposal-numeric-separator/-/plugin-proposal-numeric-separator-7.10.4.tgz#ce1590ff0a65ad12970a609d78855e9a4c1aef06"
+  integrity sha512-73/G7QoRoeNkLZFxsoCCvlg4ezE4eM+57PnOqgaPOozd5myfj7p0muD1mRVJvbUWbOzD+q3No2bWbaKy+DJ8DA==
+  dependencies:
+    "@babel/helper-plugin-utils" "^7.10.4"
+    "@babel/plugin-syntax-numeric-separator" "^7.10.4"
+
+"@babel/plugin-syntax-numeric-separator@^7.10.4":
+  version "7.10.4"
+  resolved "https://registry.yarnpkg.com/@babel/plugin-syntax-numeric-separator/-/plugin-syntax-numeric-separator-7.10.4.tgz#b9b070b3e33570cd9fd07ba7fa91c0dd37b9af97"
+  integrity sha512-9H6YdfkcK/uOnY/K7/aA2xpzaAgkQn37yzWUMRK7OaPOqOpGS1+n0H5hxT9AUw9EsSjPW8SVyMJwYRtWs3X3ug==
+  dependencies:
+    "@babel/helper-plugin-utils" "^7.10.4"
 
 "@braintree/sanitize-url@^3.1.0":
   version "3.1.0"
@@ -2565,11 +2585,11 @@ math-random@^1.0.1:
   resolved "https://registry.yarnpkg.com/math-random/-/math-random-1.0.4.tgz#5dd6943c938548267016d4e34f057583080c514c"
   integrity sha512-rUxjysqif/BZQH2yhd5Aaq7vXMSx9NdEsQcyA07uEzIvxgI7zIr33gGsh+RU0/XjmQpCW7RsVof1vlkvQVCK5A==
 
-mermaid@^8.5.2:
+"mermaid@github:xertrov/mermaid#max-fi":
   version "8.5.2"
-  resolved "https://registry.yarnpkg.com/mermaid/-/mermaid-8.5.2.tgz#0f1914cda53d4ea5377380e5ce07a38bef2ea7e8"
-  integrity sha512-I+s+8/RzlazF3dGOhDUfU/ERkUV4zfIlTWb3703jNx+2lfACs+4AdY9ULQaw6BPWzW3gB+XlXFOOX/m/vqujIA==
+  resolved "https://codeload.github.com/xertrov/mermaid/tar.gz/e375538f8cb4e1181a469f6a0b3d0bf29a7861b9"
   dependencies:
+    "@babel/plugin-proposal-numeric-separator" "^7.10.1"
     "@braintree/sanitize-url" "^3.1.0"
     crypto-random-string "^3.0.1"
     d3 "^5.7.0"
@@ -3927,6 +3947,11 @@ yarn-upgrade-all@^0.5.2:
   dependencies:
     chalk "^2.4.2"
     commander "^3.0.0"
+
+yarn@^1.22.4:
+  version "1.22.4"
+  resolved "https://registry.yarnpkg.com/yarn/-/yarn-1.22.4.tgz#01c1197ca5b27f21edc8bc472cd4c8ce0e5a470e"
+  integrity sha512-oYM7hi/lIWm9bCoDMEWgffW8aiNZXCWeZ1/tGy0DWrN6vmzjCXIKu2Y21o8DYVBUtiktwKcNoxyGl/2iKLUNGA==
 
 yauzl@^2.10.0:
   version "2.10.0"
